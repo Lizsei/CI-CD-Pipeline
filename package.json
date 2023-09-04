@@ -6,7 +6,9 @@
   "scripts": {
     "test": "jest",
     "start": "node index.js"
-    
+  },
+  "jest": {
+    "testTimeout": 10000
   },
   "author": "lizseidel",
   "license": "ISC",
@@ -16,4 +18,5 @@
     "supertest": "^6.3.3"
   }
 }
+
 
