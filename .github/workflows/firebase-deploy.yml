@@ -24,9 +24,6 @@ jobs:
       - name: Run Tests
         run: npm test
 
-      - name: Build Project # Add this step if your project needs a build step like React.js, Angular, etc.
-        run: npm run build
-
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@master
         with:
